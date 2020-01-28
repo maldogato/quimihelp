@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        QuimiHelp
+    </title>
+    <%- include ('partials/head.html') %>
+</head>
+
+<body id="contacto">
+    <%- include ('partials/navigation.html') %>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <div class="card animated flipInY">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h3>Contacatame</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="idInCE">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="idInCE" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="idInNom">¿Cuál es tu Nombre?</label>
+                                <input type="text" class="form-control" id="idInNom" placeholder="Nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="idInMen">Cuentanos más</label>
+                                <textarea id="idInMen" class="form-control" rows="4"></textarea>
+                            </div>
+                            <button class="btn btn-primary btn-block" id="idBtnEnviar">Enviar Mensaje</button class="btn btn-primary btn-block">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <%- include ('partials/foter.html') %>
+
+            <%- include ('partials/scripts.html') %>
+
+</body>
+
+</html>

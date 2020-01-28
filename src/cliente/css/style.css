@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contacto {
+    background: #2980b9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#conten {
+    background: rgba(53, 59, 72, 1);
+    color: #fff;
+    height: auto;
+}
+
+#loro {
+    background: #2980b9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#contenedor2 {
+    padding: 50px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    margin: auto;
+    border-radius: 40px;
+}
+
+
+/*ESTILO BARRA NAVEGACION*/
+
+#titulotex {
+    font-size: 110%;
+    color: #fff;
+    font-family: cursive;
+}
+
+.quim_navbar {
+    background-color: rgba(12, 36, 97, 1) !important;
+}
+
+.quim_cont_sec_1 {
+    padding: 10%;
+}
+
+.quim_cont_sec_link {
+    padding: 5%;
+}
+
+.quim_cont_sec_1 hr {
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.quim_cont_sec_link a {
+    width: 200px;
+}
+
+
+/*FOTER*/
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

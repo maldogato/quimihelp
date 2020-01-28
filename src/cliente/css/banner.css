@@ -1,0 +1,91 @@
+    /*FONDO DE LA PAGINA*/
+    
+    .qh_cont_banner {
+        height: 100vh;
+        background: #2980b9;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2c3e50, #2980b9);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    /*FONDO RECUADRO TEXTO*/
+    
+    .quim_sombra {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        width: 80%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        margin: auto;
+    }
+    /*TEXTOS RESPONSIVE*/
+    
+    .quim_sombra hr {
+        border-top: 1px solid #fff;
+    }
+    
+    .quim_sombra h1 {
+        font-size: 8vw;
+        margin-bottom: 10px;
+    }
+    
+    .quim_sombra p {
+        font-size: 4vw;
+        margin-bottom: 10px;
+    }
+    /*FIN TEXTOS RESPONSIVE*/
+    /*DISEÑO BOTONES DENTRO DEL RECUADRO*/
+    
+    .quim_cont_banner_link {
+        margin: 15px;
+        position: relative;
+    }
+    
+    .quim_cont_banner_link a {
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 1px;
+        margin-bottom: 5px;
+        width: 150px;
+    }
+    
+    .quim_cont_banner_link a:hover {
+        background-color: #fff;
+        color: #111;
+    }
+    /*FIN BOTONES DENTRO DEL RECUADRO*/
+    /*ANIMACIONES UNIDAS A KEYFRAMES*/
+    
+    .quim_banner_link {
+        opacity: 0;
+        animation: aparecer_de_arriba 1s;
+        -webkit-animation: aparecer_de_arriba 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    .quim_banner_link_1 {
+        opacity: 0;
+        animation: aparecer_de_arriba 1s;
+        -webkit-animation: aparecer_de_arriba 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+    }
+    
+    .quim_banner_link_2 {
+        opacity: 0;
+        animation: aparecer_de_arriba 1s;
+        -webkit-animation: aparecer_de_arriba 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.7s;
+    }
+    /*FIN ANIMACIONES DE KEYFRAMES*/
