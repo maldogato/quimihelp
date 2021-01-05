@@ -11,7 +11,7 @@
     "author": "Alejandro",
     "license": "ISC",
     "dependencies": {
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "css-loader": "^3.4.2",
         "ejs": "^3.0.1",
         "express": "^4.17.1",
